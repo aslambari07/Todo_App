@@ -227,7 +227,8 @@ class _HomePageState extends State<HomePage> {
                             height: 10,
                             width: 10,
                             decoration: BoxDecoration(
-                              color: Colors.blue,
+                              color:
+                                  toDoModel.isLove ? Colors.red : Colors.blue,
                               borderRadius: BorderRadius.circular(20),
                             ),
                           ),
